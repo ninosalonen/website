@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Link = ({href, text, aria}) => {
+const Link = ({href, text}) => {
   return (
-    <a href={href} target={'_blank'} rel="noreferrer" aria-label={aria}>
+    <a href={href} target={'_blank'} rel="noreferrer">
         {text}
     </a>
   )

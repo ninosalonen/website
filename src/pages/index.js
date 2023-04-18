@@ -17,6 +17,16 @@ export default function Home() {
 			<main className={grotesk.className}>
 				<h1>Hi, I'm Nino</h1>
 				<p>
+					I'm a software designer trainee at{' '}
+					<Link href="https://www.wapice.com/" text="Wapice" />. I'm currently
+					finishing my bachelor's degree in information technology at the
+					University of Turku. I'm also doing industrial management on the side.
+				</p>
+				<p>
+					Feel free to check out my projects on{' '}
+					<Link href="https://github.com/ninosalonen/" text="Github" /> and
+					connect with me on{' '}
+					<Link href="https://linkedin.com/in/nino-salonen" text="LinkedIn" />.
 					Looking for{' '}
 					<Link href="https://github.com/ninosalonen/kidebot" text="Kidebot" />?
 				</p>
