@@ -1,2 +1,1 @@
-# Visit the site
-http://ninosalonen.com
+# My website
