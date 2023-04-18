@@ -14,14 +14,20 @@ html:focus-within {
 }
 
 body {
+    font-size: calc(1rem + 0.5vw);
+    color: black;
+    overflow: hidden;
+    background-color: white;
     min-height: 100vh;
     text-rendering: optimizeSpeed;
     line-height: 1.5;
 }
 
-img,
-picture,
-video,
+a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
 canvas,
 svg {
     max-width: 100%;
