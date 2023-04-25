@@ -26,7 +26,6 @@ body {
     letter-spacing: calc(0.03rem + 0.1vw);
     font-size: calc(1rem + 0.7vw);
     color: var(--text-color);
-    overflow: hidden;
     background-color: var(--background-color);
     min-height: 100vh;
     text-rendering: optimizeSpeed;
