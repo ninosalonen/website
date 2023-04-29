@@ -1,7 +1,7 @@
 :root {
-    --background-color: #242424;
+    --background-color: #1a082a;
     --text-color: white;
-    --link-color: rgb(237, 154, 0);
+    --link-color: rgb(255, 166, 0);
     --h-color: var(--text-color);
 }
 
@@ -17,14 +17,13 @@ html:focus-within {
 
 h1 {
     color: var(--h-color);
-    font-weight: 500;
 }
 
 body {
     margin-left: 1rem;
     font-family: monospace;
-    letter-spacing: calc(0.03rem + 0.1vw);
-    font-size: calc(1rem + 0.7vw);
+    letter-spacing: 0.04rem;
+    font-size: calc(1rem + 0.6vw);
     color: var(--text-color);
     background-color: var(--background-color);
     min-height: 100vh;
@@ -35,6 +34,11 @@ body {
 a {
     text-decoration: none;
     color: var(--link-color);
+    font-weight: 900;
+}
+
+a:hover, a:active {
+    text-decoration: underline; 
 }
 
 p {
