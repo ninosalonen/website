@@ -42,7 +42,8 @@ a:hover, a:active {
 }
 
 p {
-    max-width: 35ch;
+    width: 35ch;
+    max-width: 85vw;
 }
 
 canvas,
