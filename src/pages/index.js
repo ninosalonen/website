@@ -21,7 +21,8 @@ export default function Home() {
 				<p>
 					I'm a software designer trainee at{' '}
 					<Link href="https://www.wapice.com/" text="Wapice" />.
-					I'm currently pursuing an MSc in Information Technology with a major in 
+					I study at the University of Turku, where I'm currently 
+					pursuing an MSc in Information Technology with a major in 
 					Software Engineering and a minor in Data Analytics.
 				</p>
 				<p>
