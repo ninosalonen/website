@@ -30,8 +30,6 @@ export default function Home() {
 					<Link href="https://github.com/ninosalonen/" text="Github" /> and
 					connect with me on{' '}
 					<Link href="https://linkedin.com/in/nino-salonen" text="LinkedIn" />.
-					Looking for{' '}
-					<Link href="https://github.com/ninosalonen/kidebot" text="Kidebot" />?
 				</p>
 			</main>
 		</>
